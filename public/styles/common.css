@@ -1,0 +1,45 @@
+*, :before, :after {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: 'Josefin Sans', sans-serif;
+}
+.wrapper {
+  width: 100%;
+  padding-bottom: 65px;
+}
+.inner-wrapper {  
+  margin: 0 auto;
+  
+  max-width: 1250px;
+  width: 100%;
+}
+.w100 {
+  width: 100%;
+}
+.w20 {
+  width: 20%;
+}
+.flex {
+  display: flex;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.jc-fs {
+  justify-content: flex-start;
+}
+.jc-sb {
+  justify-content: space-between;
+}
+.inner-m-l > * {
+  margin-left: 12px;
+}
+.inner-m-l > *:first-child {
+  margin-left: 0;
+}
+.mt-18 {
+  margin-top: 18px;
+}
